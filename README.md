@@ -1,4 +1,4 @@
-# Redis + EF Core + SQL Server (Console POC) — .NET 6
+# Redis + EF Core + SQL Server (Console POC) —
 
 Console POC that stores data in **SQL Server (EF Core)** and uses **Redis** as a cache (JSON strings).
 

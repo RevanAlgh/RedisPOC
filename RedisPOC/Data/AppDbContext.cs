@@ -15,7 +15,6 @@ namespace RedisPOC.Data
 
             e.ToTable("UserProfiles");
             e.HasKey(x => x.Id);
-
             e.Property(x => x.Name).HasMaxLength(200).IsRequired();
             e.Property(x => x.UpdatedAtUtc).IsRequired();
         }

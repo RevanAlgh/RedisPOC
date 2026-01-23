@@ -1,6 +1,7 @@
 # Redis + EF Core + SQL Server Console POC (.NET 6)
 
 Console application that stores users in **SQL Server** and uses **Redis** as a cache for reads (cache-aside pattern).
+
 ---
 
 ## What this project demonstrates
@@ -29,7 +30,7 @@ Redis stores:
 - `Models/UserProfile.cs`  
   Entity model.
 - `Data/AppDbContext.cs`  
-  EF Core DbContext + mapping.
+  EF Core DbContext.
 - `Data/UserRepository.cs`  
   Insert/Get operations for SQL.
 - `Services/IRedisCacheService.cs`, `Services/RedisCacheService.cs`  
@@ -48,12 +49,12 @@ Redis stores:
 ### SQL Server
 
 ### Redis
-Docker installed:
+Docker:
 ```bash
 docker run --name redis-poc -p 6379:6379 -d redis:7-alpine
 ```
 
-Where the Redis image comes from:
+Redis image:
 - `redis:7-alpine` is the official Redis image pulled from Docker Hub when not present locally.
 
 ---

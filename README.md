@@ -91,7 +91,7 @@ Menu options:
 
 ---
 
-![APP](docs/images\Console.png)
+[![APP](images/Console.png)](images/Console.png)
 
 ---
 
@@ -110,8 +110,9 @@ MONITOR
 ```
 ---
 
-![Redis Monitor](images\Redis.png))
-![UserProfile](images\SQL.png))
+[![Redis Monitor](images/Redis.png)](images/Redis.png)
+
+[![UserProfile](images/SQL.png)](images/SQL.png)
 
 ---
 

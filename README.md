@@ -91,6 +91,10 @@ Menu options:
 
 ---
 
+[![APP](images\Console.png)](images\Console.png)
+
+---
+
 ## Verify Redis (Redis side)
 
 Redis is running in Docker:
@@ -104,6 +108,12 @@ Watch commands live:
 ```redis
 MONITOR
 ```
+---
+
+[![Redis Monitor](images\Redis.png)](images\Redis.png)
+
+[![UserProfile](images\SQL.png)](images\SQL.png)
+
 ---
 
 ## Notes
